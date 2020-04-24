@@ -9,20 +9,29 @@ Controla que l'usuari et respongui correctament.*/
 #include <time.h>
 using namespace std;
 int main(){
-	int numero,dato,contador=0;
+	int numero;
+	int dato;
+	int contador=0;
 	char nombre [10],si,no;
 	srand (time(NULL));//GENERO UN NOMBRE ALEATORI
 	dato = 1+ rand()%(200); 
     cout <<"\tBIENVIGUTS AL JOC DE LOTERIA" <<endl;// presento el joc
-    cout <<"Digam el seu nom: "; cin>> nombre ; //pregunto el nom del usuari
-    cout <<"Li ha tocat la loteria algun cop si/no?: "; cin>> si; cin>> no; // pregunto si ha guanyat algun cop i ho guardo a la opcio si i la opcio no;
+    cout <<"Digam el seu nom: "; 
+	cin>> nombre ; //pregunto el nom del usuari
+    cout <<"Li ha tocat la loteria algun cop si/no?: "; 
+	cin>> si; 
+	cin>> no; // pregunto si ha guanyat algun cop i ho guardo a la opcio si i la opcio no;
    
-     do{//pensa
-    	cout<<"Ingressa un numero: "; cin>>numero; //enseña y digita un numero i ho guardo a numero
-    	if (numero>dato){
+     do
+     {//pensa
+    	cout<<"Ingressa un numero: "; 
+	     cin>>numero; //enseÃ±a y digita un numero i ho guardo a numero
+    	if (numero>dato)
+	{
     		cout <<"\nIngressa un numero menor\n";
 		}
-		if(numero<dato){
+		if(numero<dato)
+		{
 			cout<<"\nIngressa un numero mayor\n";
 		}
 		contador++;
@@ -30,7 +39,7 @@ int main(){
    
    cout<<"\n MOLTES FELICITATS HAS GUANYAT LA LOTERIA\n";//felicitats per a ver guanyat
    cout<<"\t ETS MOLT RIC!!" <<endl;
-   cout<<"Numero de intents: "<<contador <<endl; //enseño per pantalla numero de intents i ho guardo al contador
+   cout<<"Numero de intents: "<<contador <<endl; //enseÃ±o per pantalla numero de intents i ho guardo al contador
    system ("pause");
    return 0;
 		
