@@ -4,11 +4,13 @@ Li preguntarem si li ha tocat. En funcio de la seva resposta o be el felicitarem
 Volem saber en quin moment li toca (quantes vegades ha jugat a la loteria).
 Controla que l'usuari et respongui correctament.*/
 /*ALEJANDRA PINTO*/
+
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>
 using namespace std;
-int main(){
+int main()
+{
 	int numero;
 	int dato;
 	int contador=0;
