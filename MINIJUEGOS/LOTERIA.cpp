@@ -35,12 +35,12 @@ int main(){
 			cout<<"\nIngressa un numero mayor\n";
 		}
 		contador++;
-} while(numero != dato); //actua numero es igual a dato;
+} 
+	while(numero != dato); //actua numero es igual a dato;
    
    cout<<"\n MOLTES FELICITATS HAS GUANYAT LA LOTERIA\n";//felicitats per a ver guanyat
    cout<<"\t ETS MOLT RIC!!" <<endl;
    cout<<"Numero de intents: "<<contador <<endl; //enseño per pantalla numero de intents i ho guardo al contador
    system ("pause");
    return 0;
-		
-	}
+}
