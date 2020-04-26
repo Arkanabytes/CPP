@@ -20,8 +20,9 @@ for (i=1;i<=4;i++){
 		if (vector[i]!=vector[i-1]){
 			vr[i]=vector[i];
 		}
-
-		else{
+		
+		else
+		{
 		i--;
 		}
 		}
