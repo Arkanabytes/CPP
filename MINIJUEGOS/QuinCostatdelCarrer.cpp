@@ -1,5 +1,6 @@
 /*Quin costat del carrer Tasca*/
 /*Alejandra Pinto*/
+
 #include <iostream>
 using namespace std;
 bool exercici();
