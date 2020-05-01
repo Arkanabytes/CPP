@@ -1,10 +1,5 @@
 /*
-    Autor: Joel Cesar Fernandez Segura
-    Curso: Estructura de Datos
     Ejercicio: VENTA DE POSTRES
-    IDE: CodeBlocks
-    Pagina Web: http://codebotic.blogspot.com
- 
 */
 #include<iostream>
 #include<cstdlib>
