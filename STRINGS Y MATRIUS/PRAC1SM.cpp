@@ -1,7 +1,8 @@
+/*Arkanabytes*/
 /*1.Comptador de lletres.
-Escriure un programa que llegeixi una frase i a continuació visualitzi cada paraula 
-de la frase una sota l’altra, seguida cada paraula del número de lletres que la componen.*/
-/*ALEJANDRA PINTO*/
+Escriure un programa que llegeixi una frase i a continuaciÃ³ visualitzi cada paraula 
+de la frase una sota lâ€™altra, seguida cada paraula del nÃºmero de lletres que la componen.*/
+
 #include <iostream>
 #include <string.h>
 using namespace std;
@@ -9,7 +10,7 @@ using namespace std;
   char sentence[100]; //declaro les variables
   int longi; 
       cout<<"Type the Phrase: "; cin>>sentence; // declaro per a que la frase es pugui insertar i guardar en la frase
-      longi=strlen(sentence); // ja previament declarada el llarg mitjaçant un stringleng que conte les paraules i es guarde a frase
-    cout<<"The phrase contains: "<<longi<<endl; // mitjaçant un cout i guardo la variable llarg per a que em digui les paraules que conté
+      longi=strlen(sentence); // ja previament declarada el llarg mitjaÃ§ant un stringleng que conte les paraules i es guarde a frase
+    cout<<"The phrase contains: "<<longi<<endl; // mitjaÃ§ant un cout i guardo la variable llarg per a que em digui les paraules que contÃ©
 	return 0;
 }
