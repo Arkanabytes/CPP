@@ -1,3 +1,4 @@
+/*Arkanabytes*/
 /*Realice un programa que lea de la entrada estandar las siguientes datos de
 una persona:
    Edad:dato de tipo entero
