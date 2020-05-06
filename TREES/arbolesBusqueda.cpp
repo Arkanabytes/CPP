@@ -1,6 +1,7 @@
 /*SEARCH TREES BYNARY-ARBOLES DE BUSQUEDA BINARIOS*/
 /*Arkanabytes*/
 /*Alejandra Pinto*/
+
 #include <iostream>
 #include <conio.h>
 #include <stdlib.h>
@@ -17,6 +18,7 @@ struct Nodo{
 void menu();
 Nodo *crearNodo(int);
 void insertarNodo(Nodo *&, int);
+void mostrarArbol(Nodo *,int);
 Nodo *arbol = NULL;
 
 int main(){
@@ -27,10 +29,11 @@ int main(){
 }
 //funcion del menu
 void menu(){
-	int datos, opcion;
+	int datos, opcion,contador=0;
 	do{
 		cout<<"\t.:MENU:."<<endl;
 		cout<<"1. Insertar un nuevo nodo "<<endl;
+		cout<<"2. Mostrar el arbol completo "<<endl;
 		cout<<"2. Salir "<<endl;
 		cout<<"Opcion: "<<endl;
 		cin>>opcion;
@@ -41,10 +44,15 @@ void menu(){
 					insertarNodo(arbol,datos);//insertamos un nuevo nodo
 					cout<<"\n";
 					system("pause");
-					break;		
+					break;			
+			case 2:	cout<<"\nMostrando el arbol completo: \n\n";
+			mostrarArbol(arbol,contador);
+			cout<<"\n";
+			system("pause");
+			break;
 		}
 		system("cls");
-	}while(opcion != 2);
+	}while(opcion != 3);
 }
 //funciones que utilizaremos para crear un nuevo nodo
 Nodo *crearNodo(int n){
@@ -69,11 +77,19 @@ void insertarNodo(Nodo *&arbol,int n){
 			insertarNodo(arbol->derecho,n);	
 		}
 	}
-	
 }
 
-
-
-
-
-
+//funcion para mostrar el arbol completo
+void mostrarArbol(Nodo *arbol, int cont){
+	if(arbol==NULL){
+		return;
+	}
+	else{
+		mostrarArbol(arbol->derecho,cont+1);
+		for(int i=0;i<cont;i++){
+			cout<<" ";
+		}
+		cout<<arbol->datos<<endl;
+		mostrarArbol(arbol->izquierdo,cont+1);
+	}
+}
