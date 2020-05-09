@@ -1,15 +1,16 @@
+/*Arkanabytes*/
 /*5.Paraula prohibida.
-Realitzar un programa que busqui totes les aparicions d’una paraula prohibida. 
-L’usuari entrarà una frase, la llegirem i caldrà substituir cada aparició de la paraula 
-prohibida per ‘XXX’ (on el número de ‘X’ que conté la cadena haurà de ser igual al número 
-de caràcters que té la paraula prohibida.*/
+Realitzar un programa que busqui totes les aparicions dâ€™una paraula prohibida. 
+Lâ€™usuari entrarÃ  una frase, la llegirem i caldrÃ  substituir cada apariciÃ³ de la paraula 
+prohibida per â€˜XXXâ€™ (on el nÃºmero de â€˜Xâ€™ que contÃ© la cadena haurÃ  de ser igual al nÃºmero 
+de carÃ cters que tÃ© la paraula prohibida.*/
 
 #include <iostream>
 #include <conio.h>
 #include <string.h>
 using namespace std;
 int main (){
-	char paraula[1000]; 	// L’usuari entrarà una frase, 
+	char paraula[1000]; 	// Lâ€™usuari entrarÃ  una frase, 
 	cout << "Introdueix una frase" << endl; 
 	cin.getline(paraula, 1000);	// la llegirem  
 	string prohibida = "valquiria";  // Suposem que la paraula prohibida ja la tenim
@@ -19,12 +20,12 @@ int main (){
 
 	// Tallem la frase, amb els espais, les ",", els "." i els "-"
 	char * apuntador = strtok (frase," ,.-");
-  	string aux; // que serà cada paraula de la frase
+  	string aux; // que serÃ  cada paraula de la frase
   	
   	while (apuntador != NULL)
   	{
   		aux = apuntador;
-  		// aquí aux és la paraula a la que estic
+  		// aquÃ­ aux Ã©s la paraula a la que estic
   		
   		// si aux = prohibida
   		// que t'ho canvii per XXXX (e
@@ -32,7 +33,7 @@ int main (){
 		apuntador = strtok (NULL, " ,.-");
   	}	
 	
-	// i caldrà substituir cada aparició de la paraula 
+	// i caldrÃ  substituir cada apariciÃ³ de la paraula 
 
 	return 0; 	
 }
