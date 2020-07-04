@@ -1,3 +1,5 @@
+/*Arkanabytes*/
+
 /*Escriu un programa que determini si a l'usuari (pregunta el seu nom) li toca la loteria i es fa ric.
 En el moment inicial, usuari no es ric, Per tant jugara a la loteria per primer cop.
 Li preguntarem si li ha tocat. En funcio de la seva resposta o be el felicitarem, o be tornara a jugar a la loteria (2a vegada) i aixi fins que li toqui.
