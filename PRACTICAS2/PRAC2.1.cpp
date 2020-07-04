@@ -1,5 +1,6 @@
 /*Arkanabytes*/
-/*1. Escriu una aplicació que demani una paraula i un enter n no negatiu i retorni n còpies de
+
+/*1. Escriu una aplicaciÃ³ que demani una paraula i un enter n no negatiu i retorni n cÃ²pies de
 la paraula original */
 #include <iostream>
 #include <locale>
