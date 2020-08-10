@@ -1,6 +1,7 @@
-/*8. Escriu un programa per inserir un element (posició específica) en un array.
-L'array conté els valors: 12, 22, 32, 52, 62, 72, 82, 92
-Afegeix el número 42 a la posició 3 */
+/*8. Escriu un programa per inserir un element (posiciÃ³ especÃ­fica) en un array.
+L'array contÃ© els valors: 12, 22, 32, 52, 62, 72, 82, 92
+Afegeix el nÃºmero 42 a la posiciÃ³ 3 */
+
 #include <iostream>
 using namespace std;
 int main(){
