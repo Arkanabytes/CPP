@@ -1,6 +1,7 @@
-/*4. Escriu un programa per provar si un array conté un valor específic.
+/*4. Escriu un programa per provar si un array contÃ© un valor especÃ­fic.
 L'array ha de contenir: 1789, 2035, 1899, 1456, 2013, 2016, 1458, 2458, 1254, 1472
-Els valors que has de dir si té són 2016 i 2000. */
+Els valors que has de dir si tÃ© sÃ³n 2016 i 2000. */
+
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
