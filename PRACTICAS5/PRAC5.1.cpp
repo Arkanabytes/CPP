@@ -1,8 +1,9 @@
-/*1. Escriu un programa per ordenar un array numèric i un array d'strings.
+/*1. Escriu un programa per ordenar un array numÃ¨ric i un array d'strings.
 Els arrays originals han de contenir:
-• 8,1,4,3,9,6,2,7,5
-• carrer, avinguda, rambla, passeig, carretera, passatge, plaça, ronda */
-/*ALEJANDRA PINTO*/
+â€¢ 8,1,4,3,9,6,2,7,5
+â€¢ carrer, avinguda, rambla, passeig, carretera, passatge, plaÃ§a, ronda */
+/*Arkanabytes*/
+
 #include <iostream>
 #include <locale>
 #include <algorithm>
@@ -10,7 +11,7 @@ Els arrays originals han de contenir:
 using namespace std;
 int main(){
 	int n[] = {8,1,4,3,0,6,2,7,5}; 
-    string cadenes[] = {"carrer", "avinguda", "rambla", "passeig", "carretera", "passatge", "plaça", "ronda"};
+    string cadenes[] = {"carrer", "avinguda", "rambla", "passeig", "carretera", "passatge", "plaÃ§a", "ronda"};
 	int midaCadenes = sizeof(cadenes)/sizeof(cadenes[0]);
 	sort(n,n+ midaN);
 	sort(cadenes, cadenes + midaCadenes);
