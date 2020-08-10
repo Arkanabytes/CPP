@@ -1,14 +1,15 @@
 /*5.Paraula prohibida.
-Realitzar un programa que busqui totes les aparicions d’una paraula prohibida. 
-L’usuari entrarà una frase, la llegirem i caldrà substituir cada aparició de la paraula 
-prohibida per ‘XXX’ (on el número de ‘X’ que conté la cadena haurà de ser igual al número 
-de caràcters que té la paraula prohibida.*/
+Realitzar un programa que busqui totes les aparicions dâ€™una paraula prohibida. 
+Lâ€™usuari entrarÃ  una frase, la llegirem i caldrÃ  substituir cada apariciÃ³ de la paraula 
+prohibida per â€˜XXXâ€™ (on el nÃºmero de â€˜Xâ€™ que contÃ© la cadena haurÃ  de ser igual al nÃºmero 
+de carÃ cters que tÃ© la paraula prohibida.*/
 /*Alejandra Pinto*/
+
 #include <iostream>
 #include <string.h>
 using namespace std;
 int main() {
-	char paraula[1000]; 	// L’usuari entrarà una frase, 
+	char paraula[1000]; 	// Lâ€™usuari entrarÃ  una frase, 
 	cout << "Introdueix una frase" << endl;// li demano al usuari que ingressi una paraula
 	cin.getline(paraula, 1000);// li dic que recuperi la mida de la paraula
     string str  ="valquiria";// fico com paraula prohibda valquiria
