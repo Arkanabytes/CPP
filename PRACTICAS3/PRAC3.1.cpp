@@ -1,6 +1,6 @@
-/*1. Escriu un programa que demani un número i em digui si és positiu o negatiu.*/
-/*ALEJANDRA PINTO*/
+/*1. Escriu un programa que demani un nÃºmero i em digui si Ã©s positiu o negatiu.*/
 /*Arkanabytes*/
+
 #include <iostream>
 using namespace std;
 int main(){
