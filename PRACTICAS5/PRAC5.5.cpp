@@ -1,6 +1,7 @@
-/*5. Escriu un programa per trobar l'índex d'un element dins l'array.
-Utilitza l'array anterior i cerca l'índex de 2016.*/
+/*5. Escriu un programa per trobar l'Ã­ndex d'un element dins l'array.
+Utilitza l'array anterior i cerca l'Ã­ndex de 2016.*/
 //int vector []={1789, 2035, 1899, 1456, 2013, 2016, 1458, 2458, 1254, 1472};
+
 #include <iostream>
 #include <conio.h>
 
@@ -21,7 +22,7 @@ int main (){
 /*
 int A[10]={1789, 2035, 1899, 1456, 2013, 2016, 1458, 2458, 1254, 1472};// declaro els vectors	
     int major=A [0], menor= A[0];//declaro els vectors major i menor
-    for (int x = 0; x <10; x++){ //mitjaçant 
+    for (int x = 0; x <10; x++){ //mitjaÃ§ant 
     	if (A[x]>major) major= A [x];
     	if (A[x]<menor) menor= A [x];}
 	cout <<"El numero mes gran es: "<<major <<endl;
