@@ -13,7 +13,6 @@ int main(int argc, char *argv[])
  
     // obtenemos un iterator del tipo char
     vector<char>::iterator it;
-
     // lectura y despliegue de datos
     cout << "\ndesplegando datos" << endl;
     for( it = v.begin(); it != v.end(); it++ )
