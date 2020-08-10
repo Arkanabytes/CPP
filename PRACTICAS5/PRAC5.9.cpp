@@ -1,5 +1,6 @@
-/*9. Escriu un programa per trobar el valor m‡xim i mÌnim d'un array. Utilitza l'array de l'ex. 4. */
-/*Alejandra Pinto*/
+/*9. Escriu un programa per trobar el valor m√†xim i m√≠nim d'un array. Utilitza l'array de l'ex. 4. */
+/*Arkanbytes*/
+
 #include <iostream>
 #include <conio.h>
 using namespace std;
@@ -7,7 +8,7 @@ int main ()
 {
 	int A[10]={1789, 2035, 1899, 1456, 2013, 2016, 1458, 2458, 1254, 1472};// declaro els vectors	
     int major=A [0], menor= A[0];//declaro els vectors major i menor
-    for (int x = 0; x <10; x++){ //mitjaÁant un for 
+    for (int x = 0; x <10; x++){ //mitja√ßant un for 
     	if (A[x]>major) major= A [x];
     	if (A[x]<menor) menor= A [x];}
 	cout <<"El numero mes gran es: "<<major <<endl;
