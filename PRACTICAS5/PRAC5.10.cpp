@@ -1,4 +1,6 @@
 /*10. Escriure un programa per invertir els valors d'un array.*/
+/*Arkanabytes*/
+
 #include <iostream>
 #include <conio.h>
 #include <string.h>
