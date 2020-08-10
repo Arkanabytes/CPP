@@ -1,6 +1,7 @@
 /*2. Escriu un programa per sumar els valors d'un array.
 L'array a sumar ha de contenir: 1,2,3,4,5,6,7,8,9,10,11,12.*/ 
-/*alejaandra Pinto*/
+/*Arkanabytes*/
+
 #include <iostream>
 #include <conio.h>
 using namespace std;
@@ -13,6 +14,3 @@ int main(){
 	getch ();
 	return 0;
 }
-
-
-
