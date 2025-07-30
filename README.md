@@ -5,7 +5,6 @@
 Este repositorio contiene una colección de problemas básicos de programación en el lenguaje C++, diseñados para estudiantes y personas que están aprendiendo programación. Aquí encontrarás ejercicios prácticos que cubren los conceptos fundamentales de la programación en C++.
 
 ## Temas Cubiertos
-
 - **Condicionales** (if, else if, else)
 - **Estructuras de control** (switch)
 - **Bucles** (for, while, do-while)
